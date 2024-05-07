@@ -1,0 +1,52 @@
+.bg{
+    background-image: url("../imgs/background.png");
+
+
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+}
+
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.table-overflow {
+    max-height:1000px;
+    overflow-y:auto;
+}
+
+.tabela {
+     padding: 5px;
+     padding-left: 20%;
+     padding-right: 20%;
+     border:1px solid;
+     margin-top: 10px;
+     margin-left: 15px;
+     margin-right:15px;
+     float: left;
+}
+
+.listagem {
+    border:1px solid;
+    background-color: #fff3cd;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right:auto;
+    float: left;
+}
+
+.lik{
+    text-decoration: none;
+    color: white;
+}

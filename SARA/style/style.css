@@ -1,0 +1,197 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+/* Menu Principal */
+
+.menu {
+    background-color: #3CA1DD;
+}
+
+nav .navbar-brand {
+    padding-left: 5%;
+}
+
+.navbar ul {
+    text-align: right;
+}
+
+.navbar-nav {
+    margin: 5px auto;
+}
+
+/* INDEX PAGE! */
+
+/* Parallax */
+
+.header {
+    background-image: url(../images/ave/parrot.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #ffffff;
+}
+.header h1 {
+    color: #ffffff
+}
+.header .btn:hover {
+    border-color: green;
+    background-color: green;
+}
+
+/* Cards */
+
+.card-content {
+    text-align: center;
+    margin: 2%;
+}
+.card-content .card {
+    margin-bottom: 3%;
+}
+
+.card-content img {
+    max-width: 100%;
+    height: 35vh;
+}
+
+.card-content .card:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    border: 2px solid;
+    border-color: #32A411;
+}
+
+.card-content a {
+    text-decoration: none;
+    color: #252525;
+}
+.card-content #btn {
+    text-align: right;
+}
+.card-content #btn a {
+    color: #fff;
+}
+
+/* Parallax Pt.2 */
+
+.section-parallax-2 {
+    background-image: url(../images/reptil/iguana.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: black;
+}
+
+
+/* Footer */
+
+footer {
+    color: #ffffff;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+footer p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* CONTACT PAGE! */
+
+main form {
+    margin: 6%;
+}
+
+/* LOGIN PAGE! */
+
+/* .all-form {
+    background-image: url('../images/mamifero/mico_leao_dourado.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.form-control {
+    font-size: 15px;
+    min-height: 48px;
+    font-weight: 500px;
+}
+
+.forgot-link {
+    font-size: 13px;
+}
+
+.forgot-link label {
+    margin-bottom: 0
+}
+
+.login-form {
+    border: black solid 2px;
+    text-align: center;
+    padding: 50px;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-form a:hover {
+    color: blue;
+}
+
+.btn-custom {
+    background: green;
+    border-color: green;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus {
+    background: #32A411;
+    border-color: #32A411;
+    color: #fff;
+}
+
+.btn-custom:focus {
+    box-shadow: 0 0 0 0.2rem rgba(30, 9, 224, 0.25);
+}
+
+/* ABOUT US */
+
+.sobre_nos {
+    margin: 2%;
+}
+
+.fas {
+    font-size: 100px;
+}
+
+.border:hover .fas {
+    color: #3CA1DD;
+}
+
+.border:hover .title {
+    color: #3CA1DD;
+}
